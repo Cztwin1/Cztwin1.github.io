@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cztwin1's presonal website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziyi Chen - Personal Homepage</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 20px auto; padding: 0 20px; color: #333; }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        .contact p { margin: 0; }
+        .section { margin-bottom: 30px; padding: 15px; border-left: 5px solid #3498db; background-color: #f8f9fa; }
+        .experience-item { margin-bottom: 20px; }
+        .skill-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-list li { background: #ecf0f1; padding: 5px 10px; border-radius: 3px; font-size: 0.9em; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Cztwin1.github.io</h1>
+
+    <header>
+        <h1>Ziyi Chen (陈紫怡)</h1>
+        <div class="contact">
+            <p>Peking University [cite: 2]</p>
+            <p>Email: <a href="mailto:2401210578@stu.pku.edu.cn">2401210578@stu.pku.edu.cn</a> </p>
+            <p>Phone: +86-15630848296 </p>
+            <p><a href="https://your-username.github.io/blog.html">Go to Blog</a></p>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Education</h2>
+        
+        <h3>Peking University (M.S.)</h3>
+        <p><strong>Major:</strong> Electronic Information, School of Software and Microelectronics </p>
+        <p><strong>Timeline:</strong> Sep 2024 – Jul 2027 </p>
+        <p><strong>Awards:</strong> National Second Prize in Huawei Cup Postgraduate Mathematical Modeling Contest </p>
+
+        <h3>Peking University (B.S.)</h3>
+        <p><strong>Major:</strong> Computer Science and Technology </p>
+        <p><strong>Timeline:</strong> Sep 2020 – Jul 2024 </p>
+        <p><strong>GPA:</strong> 3.644/4.0 (Top 30%) </p>
+        <p><strong>Awards:</strong> PKU Academic Excellence Award, Third-class Scholarship [cite: 11]</p>
+    </section>
+
+    <section class="section">
+        <h2>Experience & Projects</h2>
+
+        <div class="experience-item">
+            <h3>Recommendation Algorithm Engineer @ JD Health</h3>
+            <p>Aug 2024 – Dec 2024 (Internship) </p>
+            <ul>
+                <li>Implemented CTCVR modeling using the **ESMM model**[cite: 31].</li>
+                <li>Full rollout resulted in **ctr +0.25%** and **cvr +1.9%** (health sector).</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>3D Vision Algorithm Intern @ Yinhe General Robotics</h3>
+            <p>Apr 2024 – Aug 2024 (Internship) [cite: 26]</p>
+            <ul>
+                <li>Participated in Galbot robot pharmacy scene drug 3D instance segmentation project[cite: 27].</li>
+                <li>Built pharmacy dataset including data collection, annotation, and formatting[cite: 28].</li>
+            </ul>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Project: AOT-based Tooth Instance Segmentation</h3>
+            <p>Apr 2024 – Jul 2024 </p>
+            <ul>
+                <li>Proposed innovative method slicing 3D CBCT images into 2D sequences and utilizing AOT multi-object association[cite: 18].</li>
+                <li>Achieved precise segmentation results with a **Dice coefficient of 97%**.</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section class="section">
+        <h2>Technical Skills</h2>
+        <ul class="skill-list">
+            <li>Python, C++ </li>
+            <li>PyTorch, TensorFlow </li>
+            <li>Deep Learning</li>
+            <li>Git, Linux [cite: 35]</li>
+            <li>Vue.js, Node.js + Express [cite: 23] (Project Experience)</li>
+        </ul>
+    </section>
 </body>
 </html>
